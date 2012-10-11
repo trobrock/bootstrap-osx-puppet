@@ -5,7 +5,7 @@ class chefvm {
   }
 
   exec { "add chefvm to path":
-    command => "echo '[[ -s \"$HOME/.chefvm/scripts/chefvm\" ]] && . \"$HOME/.chefvm/scripts/chefvm\"' >> ~/.zshenv",
+    command => "echo '[[ -s \"\$HOME/.chefvm/scripts/chefvm\" ]] && . \"\$HOME/.chefvm/scripts/chefvm\"' >> ~/.zshenv",
     unless  => "grep chefvm ~/.zshenv"
   }
 }
