@@ -1,0 +1,26 @@
+GIT
+  remote: git://github.com/rodjek/librarian-puppet.git
+  revision: e1b8ebf36979b7706a4e5ff7118c6b9c67eded0d
+  specs:
+    librarian-puppet (0.9.5)
+      json
+      puppet
+      thor (~> 0.15)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    facter (1.6.13)
+    hiera (1.1.0)
+      json
+    json (1.7.5)
+    puppet (3.0.0)
+      facter (>= 1.6.11)
+      hiera (>= 1.0.0rc)
+    thor (0.16.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  librarian-puppet!
