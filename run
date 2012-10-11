@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/usr/bin/puppet apply --noop --verbose $(puppet config print manifest)
