@@ -1,14 +1,16 @@
-FORGE
-  remote: http://forge.puppetlabs.com
-  specs:
-    bjoernalbers/homebrew (0.0.2)
-
 GIT
   remote: git://github.com/trobrock/chefvm-puppet.git
   ref: master
   sha: 14ee7766d500dd5d83a1f753eecbf97f9e698f8b
   specs:
     chefvm (0.0.1)
+
+GIT
+  remote: git://github.com/trobrock/puppet-homebrew.git
+  ref: fix-home-path
+  sha: 61d4645b9137b36dd22c9770941a5601ddcd695c
+  specs:
+    bjoernalbers/homebrew (0.0.2)
 
 DEPENDENCIES
   bjoernalbers/homebrew (>= 0)
