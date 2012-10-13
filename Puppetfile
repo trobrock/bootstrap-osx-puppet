@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'bjoernalbers/homebrew',
   :git => 'git://github.com/trobrock/puppet-homebrew.git',
-  :ref => "fix-home-path"
+  :ref => 'more-env-fixes'
 mod 'chefvm',
   :git => 'git://github.com/trobrock/chefvm-puppet.git'
 # mod 'puppetlabs/stdlib'

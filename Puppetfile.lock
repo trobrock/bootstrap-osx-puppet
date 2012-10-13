@@ -7,10 +7,10 @@ GIT
 
 GIT
   remote: git://github.com/trobrock/puppet-homebrew.git
-  ref: fix-home-path
-  sha: 61d4645b9137b36dd22c9770941a5601ddcd695c
+  ref: more-env-fixes
+  sha: db3c62b0d628aa55c045354cb08bcbcff5b81d4f
   specs:
-    bjoernalbers/homebrew (0.0.2)
+    bjoernalbers/homebrew (0.1.0)
 
 DEPENDENCIES
   bjoernalbers/homebrew (>= 0)
