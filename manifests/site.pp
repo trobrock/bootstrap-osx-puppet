@@ -10,7 +10,8 @@ class bootstrap::packages {
   $lang_pkglist = ['python']
   $pkglist      = ['vim', 'rsnapshot', 'imagemagick', 'irssi', 'mongodb',
     'mtr', 'nmap', 'qt', 'reattach-to-user-namespace', 'redis', 'sqlite',
-    'tmux', 'watch', 'wget', 'autoconf', 'automake', 'apple-gcc42', 'rbenv', 'ruby-build']
+    'tmux', 'watch', 'wget', 'autoconf', 'automake', 'apple-gcc42', 'rbenv',
+    'ruby-build', 'hub', 'ack']
 
   exec { "tap homebrew/dupes":
     command => "brew tap homebrew/dupes",
