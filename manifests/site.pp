@@ -1,4 +1,7 @@
-Exec { path => '/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin' }
+Exec {
+  path        => '/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin',
+  environment => "HOME=/Users/$id"
+}
 
 include chefvm
 
